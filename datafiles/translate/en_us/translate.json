@@ -1,0 +1,11 @@
+{
+    "test": "It's a first test",
+
+    
+    "Items": {
+        "Octo": {
+            "Name": "Octo",
+            "Desc": "Octo the best friend"
+        }
+    }
+}
