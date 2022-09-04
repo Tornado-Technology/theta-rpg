@@ -8,28 +8,33 @@ function ClassData() constructor {
 	name = "save.th";
 	path = working_directory + name;
 	
-	/// @param {String} file
-	static load = function(file = path) {
-		var json = json_open(file);
-		storage  = json;
+	static load = function() {
+		storage = json_open(path);
 	}
 	
-	/// @param {String} file
-	static save = function(file = path) {
-		var json = json_open(storage);
-		storage  = json;
+	static save = function() {
+		if (file_exists(path)) {
+			file_delete(path);
+		}
+		
+		var file = file_text_open_write(path);
+		var content = json_stringify(storage);
+		file_text_write_string(file, content);
+		file_text_close(file);
 	}
 	
 	/// @param {String} key
 	/// @param {Any} default_value
-	static get = function(key, default_value = undefined) {
-		
+	/// @param {String} delemiter
+	static get = function(key, default_value = undefined, delemiter = ".") {
+		return struct_get_key_value(storage, key, default_value, delemiter);
 	}
 	
 	/// @param {String} key
 	/// @param {Any} value
-	static set = function(key, value) {
-		
+	/// @param {String} delemiter
+	static set = function(key, value, delemiter = ".") {
+		struct_set_key_value(storage, key, value, delemiter);
 	}
 	
 	static all_reset = function() {
@@ -37,5 +42,5 @@ function ClassData() constructor {
 	}
 }
 
-global.__data = undefined;
+global.__data = Data();
 #macro data global.__data

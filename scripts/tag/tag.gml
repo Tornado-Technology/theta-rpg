@@ -2,9 +2,9 @@
 /// @param {Function} callback
 /// @param {Bool} single_use
 function Tag(names, callback, single_use = false) {
-	var tag = new TagClass(names, callback, single_use);
+	var tag = new ClassTag(names, callback, single_use);
 	if (!variable_global_exists("__tags")) {
-		/// @return {Array<Struct.TagClass>}
+		/// @return {Array<Struct.ClassTag>}
 		global.__tags = [];
 	}
 	
@@ -15,7 +15,7 @@ function Tag(names, callback, single_use = false) {
 /// @param {Array<String>} names
 /// @param {Function} callback
 /// @param {Bool} single_use
-function TagClass(names, callback, single_use) constructor {
+function ClassTag(names, callback, single_use) constructor {
 	self.names = names;
 	self.callback = callback;
 	self.single_use = single_use;

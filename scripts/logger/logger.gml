@@ -16,7 +16,7 @@ function ClassLogger() constructor {
 	}
 	
 	static __base__ = function(msg, prefix, args) {
-		var format = msg;
+		var format = string(msg);
 		for (var i = 0; i < array_length(args); i++) {
 			format = string_replace_all(format, "{" + string(i) + "}", string(args[i]));
 		}
@@ -54,7 +54,7 @@ function ClassLogger() constructor {
 		var args = []; for (var i = 1; i < argument_count; i++) array_push(args, string(argument[i]));
 		__base__(msg, "[F]", args);
 		
-		var format = msg;
+		var format = string(msg);
 		for (var i = 0; i < array_length(args); i++) {
 			format = string_replace_all(format, "{" + string(i) + "}", string(args[i]));
 		}

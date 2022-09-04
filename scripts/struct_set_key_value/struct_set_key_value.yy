@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Utils",
-    "path": "folders/Theta/Utils.yy",
+    "name": "Struct",
+    "path": "folders/Theta/Utils/Struct.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Event",
+  "name": "struct_set_key_value",
   "tags": [],
   "resourceType": "GMScript",
 }

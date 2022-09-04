@@ -6,7 +6,7 @@ function translate_get(key = "", def = "?????") {
 	var json = global._translate_lang_json;
 	
 	if (json == undefined || json == -4) {
-		logger.warn("Trasnlate language not laoded before reading, key: {0} ", key);
+		logger.warn("Trasnlate language not laoded before reading, key: {0}. ", key);
 		return def;
 	}
 	
@@ -18,19 +18,6 @@ function translate_get(key = "", def = "?????") {
 	}
 	
 	// Return a string value
-	var keys = string_split(key, ".");
-	var path = json[$ keys[0]];
-	var new_path = -1;
-	
-	try {
-		for (var i = 1; i < array_length(keys); i++) {
-			new_path = path[$ keys[i]];
-			path = new_path;
-		}
-	} catch(_error) {
-		return def;
-	}
-	
-	return path == undefined ? def : path;
+	return struct_get_key_value(json, key, def, ".");
 }
 

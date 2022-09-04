@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Classes",
-    "path": "folders/Theta/Inventory/System/Classes.yy",
+    "name": "System",
+    "path": "folders/Theta/Inventory/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "__ClassSlot",

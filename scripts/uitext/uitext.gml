@@ -27,8 +27,10 @@ function UITextClass(text, options) constructor {
 	time_char = 2;
 	typewriter_speed = 2;
 	
+	voice = undefined;
+	typewriter_voice_speed = 2;
+	
 	is_end = false;
-	parse();
 	
 	static set_text = function(text) {
 		self.text = text;
@@ -42,9 +44,9 @@ function UITextClass(text, options) constructor {
 			return;
 		}
 		
-		is_end = false;
-		char_index = 0;
-		commands = [];
+		//is_end = false;
+		//char_index = 0;
+		//commands = [];
 		
 		var new_text = text;
 		var commands_count = string_count(UILIB_CHAR_TAG_CLOUSE, text);
@@ -120,7 +122,7 @@ function UITextClass(text, options) constructor {
 	}
 	
 	/// @param {String} name
-	/// @return {Struct.TagClass}
+	/// @return {Struct.ClassTag}
 	static command_find = function(name) {
 		name = string_lower(string(name));
 		

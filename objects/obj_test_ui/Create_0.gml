@@ -1,4 +1,5 @@
 /// @desc
-global.player_name = "Chasetr";
-text = UIText("Hi \"{color: c_green}{player: name}{color: c_white}\"");
+global.player_name = "Chaster";
+text = UIText("{color: c_white}Hi {speed: 4} Loool {speed: 1} eeeeeeeeeeeeeeeeeeeeeeeeeeeee");
+text.parse();
 index = 0;

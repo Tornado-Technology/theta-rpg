@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "Collsion",
-    "path": "folders/Sprites/Collsion.yy",
+    "path": "folders/Theta/Assets/Sprites/Collsion.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_trigger",

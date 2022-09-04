@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Effects",
-    "path": "folders/Objects/Effects.yy",
+    "path": "folders/Theta/Assets/Objects/Effects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_effect_fade",

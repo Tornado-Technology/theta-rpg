@@ -6,7 +6,6 @@
 #macro TRANSLATE_LANG_INFO "translate.json"
 #macro TRANSLATE_LANG_MAIN "lang.json"
 
-
 enum lang {
 	en_us,
 	ru_ru
@@ -19,7 +18,7 @@ global._translate_lang_info = undefined;
 
 logger.info("Translate load langs...");
 global._translate_langs = file_finde_all(TRANSLATE_DIRECTORY + "*", fa_directory);
-logger.info("Translate load {0}/{1} langs.", translate_lang_count(), translate_lang_count());
+logger.info("Translate load {0}/{0} langs.", translate_lang_count());
 
 global.__event_on_translate_update = Event();
 #macro on_translate_update global.__event_on_translate_update

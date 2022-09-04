@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy",
+    "path": "folders/Theta/Assets/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_init",

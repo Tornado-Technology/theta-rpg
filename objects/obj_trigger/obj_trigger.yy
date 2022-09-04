@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Triggers",
-    "path": "folders/Objects/Triggers.yy",
+    "path": "folders/Theta/Assets/Objects/Triggers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_trigger",

@@ -9,15 +9,19 @@ function struct_get_key_value(struct, key, default_value, delemiter = ".") {
 	}
 	
 	if (string_is_empty(key)) {
-		logger.warn("Not bladeless getting the value of the structure. Try to remove this. Called by: \"script/struct_get_key_value.gml\".");
+		logger.warn("Not bladeless getting the value of the structure. Try to remove this.");
 		return struct;
 	}
 	
 	var paths = string_split(key, delemiter);
 	var struct_finde = struct[$ paths[0]]
 	
-	for (var i =1; i < array_length(paths) - 1; i++) {
-		struct_finde = struct_finde[$ paths[0]];
+	for (var i = 1; i < array_length(paths); i++) {
+		struct_finde = struct_finde[$ paths[i]];
+	}
+	
+	if (struct_finde == undefined) {
+		return default_value;
 	}
 	
 	return struct_finde;

@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Theta/Objects.yy",
+    "path": "folders/Theta/Assets/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cutscene",

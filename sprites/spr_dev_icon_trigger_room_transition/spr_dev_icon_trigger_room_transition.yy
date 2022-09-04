@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "Dev",
-    "path": "folders/Sprites/Dev.yy",
+    "path": "folders/Theta/Assets/Sprites/Dev.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_dev_icon_trigger_room_transition",

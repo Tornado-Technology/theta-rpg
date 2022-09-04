@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Collisions",
-    "path": "folders/Objects/Collisions.yy",
+    "path": "folders/Theta/Assets/Objects/Collisions.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_collider",

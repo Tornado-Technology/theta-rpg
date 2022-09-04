@@ -20,28 +20,28 @@ Tag(["/font"], function(ui, index, arguments) {
 Tag(["speed"], function(ui, index, arguments) {
 	ui.typewriter_speed = real(arguments[0]);
 	ui.typewriter_voice_speed = real(arguments[0]);
-});
+}, true);
 
 Tag(["/speed"], function(ui, index, arguments) {
 	ui.typewriter_speed = 2;
 	ui.typewriter_voice_speed = 2;
-});
+}, true);
 
 Tag(["writeSpeed"], function(ui, index, arguments) {
 	ui.typewriter_speed = real(arguments[0]);
-});
+}, true);
 
 Tag(["/writeSpeed"], function(ui, index, arguments) {
 	ui.typewriter_speed = 2;
-});
+}, true);
 
 Tag(["voiceSpeed"], function(ui, index, arguments) {
 	ui.typewriter_voice_speed = real(arguments[0]);
-});
+}, true);
 
 Tag(["/voiceSpeed"], function(ui, index, arguments) {
 	ui.typewriter_voice_speed = 2;
-});
+}, true);
 #endregion
 #region Voice
 Tag(["voice"], function(ui, index, arguments) {
