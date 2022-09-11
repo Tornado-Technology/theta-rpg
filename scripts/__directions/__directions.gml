@@ -1,4 +1,4 @@
-// The list of all directions
+// The enum of all directions
 // You can use it to create objects or rotate sprites
 enum dir {
 	right      = 0,

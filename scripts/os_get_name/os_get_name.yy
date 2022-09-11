@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "UIButton",
+  "name": "os_get_name",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Components",
-    "path": "folders/Theta/UILib/Components.yy",
+    "name": "OS",
+    "path": "folders/Theta/Utils/OS.yy",
   },
 }

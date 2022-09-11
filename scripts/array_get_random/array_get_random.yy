@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "UIButton",
+  "name": "array_get_random",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Components",
-    "path": "folders/Theta/UILib/Components.yy",
+    "name": "Array",
+    "path": "folders/Theta/Utils/Array.yy",
   },
 }

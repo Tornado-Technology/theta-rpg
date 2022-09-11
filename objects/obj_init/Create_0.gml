@@ -7,7 +7,7 @@
 #macro GAME_BUILD "Windows x64"
 
 // Teta main info
-#macro THETA_VERSION "v2.0.0"
+#macro THETA_VERSION "v2.0.1"
 
 // Room goto next
 logger.info("Initilization done.");
