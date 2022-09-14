@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "__uilib_tags",
+  "name": "input_bind",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "UILib",
-    "path": "folders/Theta/UILib.yy",
+    "name": "Input",
+    "path": "folders/Theta/Input.yy",
   },
 }

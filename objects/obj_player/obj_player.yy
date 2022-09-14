@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_player",
   "spriteId": {
     "name": "spr_char_frisk_walk_down",
     "path": "sprites/spr_char_frisk_walk_down/spr_char_frisk_walk_down.yy",
@@ -11,7 +14,10 @@
     "path": "sprites/spr_char_frisk_mask/spr_char_frisk_mask.yy",
   },
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_character",
+    "path": "objects/obj_character/obj_character.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,16 +31,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Demo/Objects.yy",
+    "path": "folders/Theta/Assets/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_player",
-  "tags": [],
-  "resourceType": "GMObject",
 }

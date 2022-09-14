@@ -1,14 +1,14 @@
-/// @param {string} name
-/// @param {function} call
-function State(_name, _call) {
-	return new __ClassState(_name, _call)
+/// @param {String} name
+/// @param {Function} callback
+function State(name, callback) {
+	return new StateClass(name, callback)
 }
 
-/// @param {string} name
-/// @param {function} call
-function __ClassState(_name, _call) constructor {
-	name = _name;
-	call = _call;
+/// @param {String} name
+/// @param {Function} callback
+function StateClass(name, callback) constructor {
+	self.name = name;
+	self.callback = callback;
 	
 	/// @param {any} args...
 	static invoke = function() {
@@ -18,7 +18,7 @@ function __ClassState(_name, _call) constructor {
 			array_push(arguments, argument[i]);
 		}
 		
-		return call(arguments);
+		return callback(arguments);
 	}
 	
 	static get_name = function() {

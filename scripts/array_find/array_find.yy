@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "__uilib_config",
+  "name": "array_find",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "UILib",
-    "path": "folders/Theta/UILib.yy",
+    "name": "Array",
+    "path": "folders/Theta/Utils/Array.yy",
   },
 }

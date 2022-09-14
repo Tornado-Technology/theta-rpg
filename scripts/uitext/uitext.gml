@@ -14,7 +14,7 @@ function UITextClass(text) constructor {
 	font = default_font;
 	
 	haligin = default_haligin;
-	valigin = default_valign;
+	valigin = default_valigin;
 	
 	// Transform
 	angle = 0;
@@ -135,13 +135,11 @@ function UITextClass(text) constructor {
 	static command_find = function(name) {
 		name = string_lower(string(name));
 		
-		var tags = global.__uilib_tags;
+		var tags = global.__tags;
 	
 		// Finde command
 		for (var i = 0; i < array_length(tags); i++) {
 			var tag = tags[i];
-		
-			logger.debug(tag);
 		
 			// Check all names
 			if (tag.has_name(name)) {

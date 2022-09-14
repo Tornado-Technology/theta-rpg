@@ -1,22 +1,32 @@
+/// @desc Customizable vatiables
+// System methods in obj_character
+event_inherited();
 
+// Customizable pricks(Variable)
+movement_speed_swim = 1;
+movement_speed_walk = 2;
+movement_speed_run  = 3;
 
-trigger_ignore = false;
-trigger_reference = obj_trigger;
-trigger_instance = noone;
-
-trigger_update = function() {
-	if (trigger_ignore) return;
-	
-	if (place_meeting(x, y, trigger_reference)) {
-		if (trigger_instance == noone) {
-			trigger_instance = instance_place(x, y, trigger_reference);
-			trigger_instance.on_enter();
-		} else {
-			trigger_instance.on_stay();
-		}
-	} else if (trigger_instance != noone) {
-		trigger_instance.on_exit();
-		trigger_instance = noone;
-	}
+// State machine
+enum player_state {
+	idle,
+	walk,
+	run,
+	interact
 }
 
+state_add(player_state.idle, function(arguments) {
+	var player = arguments[0];
+});
+
+state_add(player_state.walk, function(arguments) {
+	var player = arguments[0];
+});
+
+state_add(player_state.run, function(arguments) {
+	var player = arguments[0];
+});
+
+state_add(player_state.interact, function(arguments) {
+	var player = arguments[0];
+});

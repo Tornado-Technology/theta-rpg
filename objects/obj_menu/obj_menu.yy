@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_menu",
   "spriteId": {
     "name": "spr_dev_icon_menu",
     "path": "sprites/spr_dev_icon_menu/spr_dev_icon_menu.yy",
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Demo/Objects.yy",
+    "path": "folders/Theta/Assets/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_menu",
-  "tags": [],
-  "resourceType": "GMObject",
 }

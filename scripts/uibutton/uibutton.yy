@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Components",
-    "path": "folders/Theta/UILib/Components.yy",
+    "path": "folders/Theta/UI/Components.yy",
   },
 }

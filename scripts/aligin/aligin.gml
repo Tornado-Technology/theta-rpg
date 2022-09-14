@@ -1,7 +1,7 @@
 /// @param {Constant.HAligin} haligin Horizontal alignment
 /// @param {Constant.VAligin} valigin  Vertical alignment
 /// @desc Fabricator for ClassAligin()
-function Aligin(haligin = default_haligin, valigin = default_valign) {
+function Aligin(haligin = default_haligin, valigin = default_valigin) {
 	return new ClassAligin(haligin, valigin);
 }
 
