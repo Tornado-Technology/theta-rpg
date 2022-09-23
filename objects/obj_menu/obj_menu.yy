@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_menu",
   "spriteId": {
-    "name": "spr_dev_icon_menu",
-    "path": "sprites/spr_dev_icon_menu/spr_dev_icon_menu.yy",
+    "name": "spr_icon_menu",
+    "path": "sprites/spr_icon_menu/spr_icon_menu.yy",
   },
   "solid": false,
   "visible": true,

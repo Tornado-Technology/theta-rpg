@@ -1,10 +1,13 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_collider",
   "spriteId": {
     "name": "spr_collider",
     "path": "sprites/spr_collider/spr_collider.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -28,8 +31,4 @@
     "name": "Collisions",
     "path": "folders/Theta/Assets/Objects/Collisions.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_collider",
-  "tags": [],
-  "resourceType": "GMObject",
 }

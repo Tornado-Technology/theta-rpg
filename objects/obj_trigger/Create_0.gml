@@ -1,5 +1,5 @@
 /// @desc Callbacks
-on_enter = function() { };
-on_stay  = function() { };
-on_exit  = function() { };
-on_interaction = function() { };
+on_enter = function(player) { };
+on_stay = function(player) { };
+on_exit = function(player) { };
+on_interaction = function(player) { };

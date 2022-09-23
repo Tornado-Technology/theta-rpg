@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_init",
   "spriteId": {
-    "name": "spr_dev_icon_init",
-    "path": "sprites/spr_dev_icon_init/spr_dev_icon_init.yy",
+    "name": "spr_icon_init",
+    "path": "sprites/spr_icon_init/spr_icon_init.yy",
   },
   "solid": false,
   "visible": false,

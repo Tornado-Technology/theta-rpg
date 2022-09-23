@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_character",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_icon_character",
+    "path": "sprites/spr_icon_character/spr_icon_character.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

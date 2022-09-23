@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_trigger",
   "spriteId": {
-    "name": "spr_dev_icon_trigger",
-    "path": "sprites/spr_dev_icon_trigger/spr_dev_icon_trigger.yy",
+    "name": "spr_icon_trigger",
+    "path": "sprites/spr_icon_trigger/spr_icon_trigger.yy",
   },
   "solid": false,
   "visible": false,
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Triggers",
     "path": "folders/Theta/Assets/Objects/Triggers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_trigger",
-  "tags": [],
-  "resourceType": "GMObject",
 }
