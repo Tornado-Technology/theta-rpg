@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 20,
   "height": 30,
   "textureGroupId": {
@@ -97,7 +98,7 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Frisk",
-    "path": "folders/Demo/Sprites/Chatacters/Frisk.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }

@@ -1,10 +1,9 @@
 {
-  "parent": {
-    "name": "Frisk",
-    "path": "folders/Demo/Sprites/Chatacters/Frisk.yy",
-  },
+  "resourceType": "GMNotes",
   "resourceVersion": "1.1",
   "name": "Credits",
-  "tags": [],
-  "resourceType": "GMNotes",
+  "parent": {
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
+  },
 }

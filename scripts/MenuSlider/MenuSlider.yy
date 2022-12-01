@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "UIImage",
+  "name": "MenuSlider",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Components",
-    "path": "folders/Theta/UI/Components.yy",
+    "name": "Elements",
+    "path": "folders/Theta/Menu/Elements.yy",
   },
 }

@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "__ui_config",
+  "name": "MenuExecute",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Configs",
-    "path": "folders/Theta/Configs.yy",
+    "name": "Elements",
+    "path": "folders/Theta/Menu/Elements.yy",
   },
 }

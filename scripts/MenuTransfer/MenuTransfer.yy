@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Tag",
+  "name": "MenuTransfer",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "System",
-    "path": "folders/Theta/UI/System.yy",
+    "name": "Elements",
+    "path": "folders/Theta/Menu/Elements.yy",
   },
 }

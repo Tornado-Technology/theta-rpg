@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 18,
   "height": 29,
   "textureGroupId": {
@@ -73,7 +74,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Frisk",
-    "path": "folders/Demo/Sprites/Chatacters/Frisk.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }

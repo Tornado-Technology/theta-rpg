@@ -1,0 +1,1 @@
+on_translate_update.disconnect(translate_update);
